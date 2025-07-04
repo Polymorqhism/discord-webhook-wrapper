@@ -10,9 +10,8 @@ int main() {
   example.name = "test";
 
   webhook_message_send(example, "polymorqhism is so goated");
-  webhook_edit(&example, "pol");
+  webhook_edit(&example, "poly");
   webhook_delete(example);
 
-  printf("new name is %s\n", example.name);
 }
 ```
